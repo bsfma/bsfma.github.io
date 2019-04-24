@@ -1,0 +1,17 @@
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.card-body {
+  background-color: #fdfdfd;
+}

@@ -1,0 +1,13 @@
+#header {
+  		background-image: url("../../images/lettuce_beauty.jpg");
+}
+
+li {
+  list-style-type: none;
+}
+
+.card li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}

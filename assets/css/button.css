@@ -1,0 +1,12 @@
+.btn-outline-success {
+  color: inherit;
+  border-color: inherit;
+  background-color: #FFFFFF;
+  font: inherit;
+}
+
+.btn-outline-success:hover {
+  background-color: #1b5608;
+  border-color: #1b5608;
+  font: inherit;
+}
