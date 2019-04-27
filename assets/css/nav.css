@@ -40,6 +40,36 @@ nav a:hover {
   margin: 0;
 }
 
-nav a:hover .dropdown-item {
+.dropdown-item:hover {
   background-color: #1b5608;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+      float:none;
+      margin:0 auto;
+      display: block;
+      text-align: center;
+  }
+
+  .navbar-nav > li {
+      display: inline-block;
+      float:none;
+  }
+}
+
+@media (max-width: 550px) {
+
+  button.navbar-toggler {
+  height: 40px;
+  }
+
+  /* button.navbar-toggler:hover {
+    border-color: none;
+  } */
+
+}
+
+button.navbar-toggler:hover {
+  border-color: #1b5608;
 }
