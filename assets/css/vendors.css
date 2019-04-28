@@ -1,5 +1,5 @@
 #header {
-  		background-image: url("../../images/lettuce_beauty.jpg");
+  	background-image: url("../../images/lettuce_beauty.jpg");
 }
 
 li {
@@ -10,4 +10,13 @@ li {
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.card-deck {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#other-vendors {
+  line-height: 0.25;
 }

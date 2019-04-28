@@ -59,15 +59,9 @@ nav a:hover {
 }
 
 @media (max-width: 550px) {
-
   button.navbar-toggler {
   height: 40px;
   }
-
-  /* button.navbar-toggler:hover {
-    border-color: none;
-  } */
-
 }
 
 button.navbar-toggler:hover {
