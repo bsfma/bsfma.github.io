@@ -56,11 +56,17 @@ nav a:hover {
       display: inline-block;
       float:none;
   }
+
+  .navbar-brand {
+    visibility: hidden !important;
+  }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   button.navbar-toggler {
   height: 40px;
+  border: none;
+  outline: none;
   }
 
   nav li {
@@ -72,6 +78,13 @@ nav a:hover {
   }
 }
 
-button.navbar-toggler:hover {
-  border-color: #1b5608;
+button.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-brand i {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
 }
