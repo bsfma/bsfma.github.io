@@ -1,0 +1,27 @@
+.accordion p {
+    text-align: left;
+}
+
+button.btn {
+    box-shadow: none;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.vendor-header div {
+    text-align: left;
+}
+
+.linespacing0pt8 {
+    line-height: 0.8em;
+}
+
+.prepadding p {
+    padding-top: 12px;
+}
+
+.collapse p {
+    margin: 0;
+}
